@@ -114,10 +114,10 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
+/* Profile Image - Vertical Ellipse (Lombatto Shape) */
 .image-container img {
-    width: 170px;
-    height: 170px;
+    width: 160px;  /* Horizontal diameter */
+    height: 200px; /* Vertical diameter (larger for vertical ellipse) */
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid limegreen;
@@ -280,10 +280,10 @@ p {
     .Hi,im-Aritra {
         font-size: 2.2rem;
     }
-    
+    /* Profile Image - Vertical Ellipse (Lombatto Shape) */
     .image-container img {
-        width: 250px;
-        height: 250px;
+        width: 160px;  /* Horizontal diameter */
+        height: 200px; /* Vertical diameter (larger for vertical ellipse) */
         box-shadow: 0 0 90px darkgreen;
     }
 }
